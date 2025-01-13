@@ -182,6 +182,9 @@ numpy==2.2.1
     # via machine-learning-labs
     # via matplotlib
     # via pandas
+    # via patsy
+    # via scipy
+    # via statsmodels
 overrides==7.7.0
     # via jupyter-server
 packaging==24.2
@@ -191,12 +194,16 @@ packaging==24.2
     # via jupyterlab-server
     # via matplotlib
     # via nbconvert
+    # via statsmodels
 pandas==2.2.3
     # via machine-learning-labs
+    # via statsmodels
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
     # via jedi
+patsy==1.0.1
+    # via statsmodels
 pillow==11.1.0
     # via ipympl
     # via matplotlib
@@ -247,6 +254,7 @@ referencing==0.35.1
     # via jupyter-events
 requests==2.32.3
     # via jupyterlab-server
+    # via machine-learning-labs
 rfc3339-validator==0.1.4
     # via jsonschema
     # via jupyter-events
@@ -256,6 +264,8 @@ rfc3986-validator==0.1.1
 rpds-py==0.22.3
     # via jsonschema
     # via referencing
+scipy==1.15.1
+    # via statsmodels
 send2trash==1.8.3
     # via jupyter-server
 setuptools==75.8.0
@@ -269,6 +279,8 @@ soupsieve==2.6
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
+statsmodels==0.14.4
+    # via machine-learning-labs
 terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
