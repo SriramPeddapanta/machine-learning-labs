@@ -204,6 +204,7 @@ packaging==24.2
     # via jupyterlab-server
     # via matplotlib
     # via nbconvert
+    # via plotly
     # via statsmodels
 pandas==2.2.3
     # via machine-learning-labs
@@ -220,6 +221,8 @@ pillow==11.1.0
     # via matplotlib
 platformdirs==4.3.6
     # via jupyter-core
+plotly==5.24.1
+    # via machine-learning-labs
 prometheus-client==0.21.1
     # via jupyter-server
 prompt-toolkit==3.0.48
@@ -298,6 +301,8 @@ stack-data==0.6.3
     # via ipython
 statsmodels==0.14.4
     # via machine-learning-labs
+tenacity==9.0.0
+    # via plotly
 terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
