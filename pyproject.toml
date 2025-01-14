@@ -15,6 +15,7 @@ dependencies = [
     "requests>=2.32.3",
     "joblib>=1.4.2",
     "scikit-learn>=1.6.1",
+    "missingno>=0.5.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

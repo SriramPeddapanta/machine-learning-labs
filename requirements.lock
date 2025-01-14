@@ -158,9 +158,13 @@ markupsafe==3.0.2
 matplotlib==3.10.0
     # via ipympl
     # via machine-learning-labs
+    # via missingno
+    # via seaborn
 matplotlib-inline==0.1.7
     # via ipykernel
     # via ipython
+missingno==0.5.2
+    # via machine-learning-labs
 mistune==3.1.0
     # via nbconvert
 nbclient==0.10.2
@@ -184,10 +188,12 @@ numpy==2.2.1
     # via ipympl
     # via machine-learning-labs
     # via matplotlib
+    # via missingno
     # via pandas
     # via patsy
     # via scikit-learn
     # via scipy
+    # via seaborn
     # via statsmodels
 overrides==7.7.0
     # via jupyter-server
@@ -201,6 +207,7 @@ packaging==24.2
     # via statsmodels
 pandas==2.2.3
     # via machine-learning-labs
+    # via seaborn
     # via statsmodels
 pandocfilters==1.5.1
     # via nbconvert
@@ -271,8 +278,11 @@ rpds-py==0.22.3
 scikit-learn==1.6.1
     # via machine-learning-labs
 scipy==1.15.1
+    # via missingno
     # via scikit-learn
     # via statsmodels
+seaborn==0.13.2
+    # via missingno
 send2trash==1.8.3
     # via jupyter-server
 setuptools==75.8.0
