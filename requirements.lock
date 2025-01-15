@@ -281,6 +281,7 @@ rpds-py==0.22.3
 scikit-learn==1.6.1
     # via machine-learning-labs
 scipy==1.15.1
+    # via machine-learning-labs
     # via missingno
     # via scikit-learn
     # via statsmodels
